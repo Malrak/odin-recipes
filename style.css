@@ -1,4 +1,5 @@
-h1 {
+#odin {
+    box-sizing: border-box;
     height: auto;
     width: 825px;
     background-color: rgba(15, 55, 175, 0.767);
@@ -9,9 +10,10 @@ h1 {
     box-sizing: border-box;
     padding: 5px;
     margin: 0px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
-ul {
+#recipes {
     list-style-type: none;
     display: inline-block;
     margin: 0px;
@@ -20,7 +22,7 @@ ul {
     background-color: rgba(15, 55, 175, 0.767);
 }
 
-li {
+.list {
     box-sizing: border-box;
     height: auto;
     width: 275px;
@@ -29,13 +31,10 @@ li {
     text-align: center;
     padding: 5px;
     font-size: 30px;
-    border-left: 2px solid rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
-    border-top: 2px solid rgb(0, 0, 0);
     font-weight: bold;
 }
 
-li:hover {
+.list:hover {
     background-color: rgb(40, 50, 50);
 }
 
@@ -44,7 +43,61 @@ a {
     color: rgb(255, 255, 0);
 }
 
+.waffle {
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+}
+
+.pizza {
+    border: 2px solid rgb(0, 0, 0);
+    border-top: none;
+}
+
+.chili {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
 img {
     height: auto;
     width: 825px;
+}
+
+body {
+    background-color: slategray;
+}
+
+.header {
+    height: auto;
+    width: 825px;
+    background-color: rgba(20, 25, 25, 0.8);
+    color: rgb(0, 255, 50);
+    font-size: 50px;
+    font-family: monospace;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+}
+
+.description {
+    box-sizing: border-box;
+    height: auto;
+    width: 825px;
+    text-align: center;
+    background-color: rgba(20, 25, 25, 0.8);
+    color: rgb(0, 255, 50);
+    font-size: 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.ingredients {
+   box-sizing: border-box;
+    height: auto;
+    width: 825px;
+    text-align: center;
+    background-color: rgba(20, 25, 25, 0.8);
+    color: rgb(0, 255, 50);
+    font-size: 35px; 
 }
