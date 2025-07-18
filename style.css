@@ -59,13 +59,14 @@ a {
 img {
     height: auto;
     width: 825px;
+    padding-top: 2px;
 }
 
 body {
     background-color: slategray;
 }
 
-.header {
+.title {
     height: auto;
     width: 825px;
     background-color: rgba(20, 25, 25, 0.8);
@@ -78,7 +79,7 @@ body {
     margin: 0px;
 }
 
-.description {
+.header {
     box-sizing: border-box;
     height: auto;
     width: 825px;
@@ -86,18 +87,37 @@ body {
     background-color: rgba(20, 25, 25, 0.8);
     color: rgb(0, 255, 50);
     font-size: 40px;
+    margin-top: 0px;
 }
 
 p {
-    font-size: 22px;
+    font-size: 25px;
 }
 
-.ingredients {
-   box-sizing: border-box;
-    height: auto;
-    width: 825px;
-    text-align: center;
-    background-color: rgba(20, 25, 25, 0.8);
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: -25px;
+    font-size: 25px;
+}
+
+li {
+    padding: 10px;
+}
+
+ol {
+    margin-top: -25px;
+    font-size: 25px;
+    padding-left: 34px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.button {
+    box-sizing: content-box;
+    display:inline-block;
+    font-size: 55px;
     color: rgb(0, 255, 50);
-    font-size: 35px; 
 }
